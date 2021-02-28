@@ -20,6 +20,7 @@
         ABBREVIATION:</td><td><input type="text" name="abr"  placeholder="Abrevation" pattern=".{3,}"  value="<?php echo $row1->abrv;?>" required title="3 characters minimum"  maxlength="10"></td></tr>
       <tr><td>
         CITY:</td><td><select name="city">
+        
           <option><?php echo $row1->city;?></option>
           <option>TRIVANDRUM</option> 
           <option>KOCHI</option> 
